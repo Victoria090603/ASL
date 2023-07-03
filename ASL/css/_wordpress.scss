@@ -1,0 +1,135 @@
+.wordpress {
+    margin-bottom: 5.06667em;
+
+    .wordpress-content {
+        display: flex;
+    }
+
+    .wodpress-info {
+        margin-left: 2.666667em;
+
+        .wordpress-text {
+            padding: 4.6em 6.66em 4.6em 5.33em;
+            position: relative;
+            background-color: #14161B;
+            margin-top: -5.13333em;
+            background-image: url('../img/png/squeare.png');
+            background-size: 8.4em 8.4em;
+            background-repeat: no-repeat;
+            background-position: top 3.73333em right 4.33333em;
+            width: 39.063vw;
+
+            p {
+                font-size: 1.250vw;
+                line-height: 160%;
+                color: #FFFFFF;
+                max-width: 815px;
+                margin: 0;
+                margin-bottom: 3.133333em;
+
+            }
+
+            a {
+                color: #FFFFFF;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 14.063vw;
+                height: 3.33333em;
+                font-weight: 500;
+                background-color: #DA1648;
+                border-radius: 35px;
+                border: 1px solid transparent;
+                transition: 0.5s;
+                &:hover {
+                    border: 1px solid #14161B;
+                    background-color: #FFFFFF;
+                    color: #14161B;
+                }
+            }
+        }
+    }
+
+    .wodpress-img {
+        // margin-top: 2.666667em;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        position: relative;
+
+        &::after,
+        &::before {
+            position: absolute;
+            content: "";
+            height: 0.0666667em;
+            background-color: #E9E9E9;
+        }
+
+        &::after {
+            top: 50%;
+            transform: translateY(-50%);
+            width: 100%;
+        }
+
+        &::before {
+            width: 40em;
+            bottom: 0;
+            left: 0;
+        }
+
+        img {
+            display: inline-block;
+            text-align: left;
+            object-fit: contain;
+            display: block;
+        }
+
+        .wordpress-wrapper {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-wrap: wrap;
+            a {
+                width: calc(33.33%);
+                &:nth-child(1) {
+                    margin-right: 7.53333em;
+                    width: 11.896vw;
+                }
+
+                &:nth-child(2) {
+                    margin-right: 11.13333em;
+                    width: 9.479vw;
+                }
+
+                &:nth-child(3) {
+                    width: 2.979vw;
+                }
+
+                &:nth-child(4) {
+                    margin-right: 0.2em;
+                    width: 20.510vw;
+                }
+
+                &:nth-child(5) {
+                    margin-right: 0.733333em;
+                    width: 14.708vw;
+                }
+
+                &:nth-child(6) {
+                    width: 8.302vw;
+                }
+                img {
+                    width: 100%;
+                    height: auto;
+                }
+            }
+        }
+
+
+
+  
+ 
+
+
+    }
+}

@@ -1,0 +1,28 @@
+.top {
+    .big-bg {
+        position: relative;
+        overflow: hidden;
+        img {
+            width: 100%;
+            display: block;
+            height: 40em;
+        }
+
+        .bg-text {
+            position: absolute;
+            font-size: 13.021vw;
+            top: 50%;
+            transform: translateY(-50%);
+            font-weight: 700;
+            line-height: 74.5%;
+            color: #FFFFFF;
+            left: -33px;
+            margin: 0;
+
+            span {
+                position: relative;
+                left: 60px;
+            }
+        }
+    }
+}

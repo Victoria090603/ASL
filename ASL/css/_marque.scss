@@ -1,0 +1,52 @@
+.marque {
+    height: 12em;
+
+    .marquee_wrap {
+        display: inline-block;
+        white-space: nowrap;
+        width: 100%;
+        overflow: hidden;
+        height: 12em;
+        display: flex;
+        align-items: center;
+
+        .row_marquee {
+            display: inline-block;
+            white-space: nowrap;
+            position: relative;
+            animation-timing-function: linear;
+            animation-iteration-count: infinite;
+            animation-duration: 100s;
+            animation-name: marquee-l;
+            transform: translateX(0%);
+
+            img {
+                margin: 0 4.53333em;
+                &:nth-child(1),
+                &:nth-child(7) {
+                    width: 9.13333em;
+                 }
+                &:nth-child(2),
+                &:nth-child(8) {
+                    width: 11.86667em;
+                }
+                &:nth-child(3),
+                &:nth-child(9) {
+                    width: 11em;
+                }
+                &:nth-child(10),
+                &:nth-child(4) {
+                    width: 11.73333em;
+                }
+                &:nth-child(5),
+                &:nth-child(11) {
+                    width: 5.2em;
+                }
+                &:nth-child(6),
+                &:nth-child(12) {
+                    width: 7.66667em;
+                }
+            }
+        }
+    }
+}
